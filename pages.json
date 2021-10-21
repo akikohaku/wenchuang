@@ -6,8 +6,8 @@
 				"navigationBarTitleText": "uni-app"
 			}
 		}
-	    ,{
-            "path" : "pages/test2/test2",
+        ,{
+            "path" : "pages/test3/test3",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
@@ -16,7 +16,7 @@
             
         }
         ,{
-            "path" : "pages/test3/test3",
+            "path" : "pages/allgoods/allgoods",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
@@ -30,5 +30,19 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#552830",
+		"borderStyle": "white",
+		"backgroundColor": "#F8F4E9",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "主页"
+		}, 
+		{
+			"pagePath": "pages/allgoods/allgoods",
+			"text": "所有商品"
+		}]
 	}
 }
